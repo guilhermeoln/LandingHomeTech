@@ -1,3 +1,3 @@
 Densevolvido em ReactJS.
 
-Link do projeto: https://landingcoser.netlify.app/
+Link do projeto: https://hometechpe.netlify.app/
