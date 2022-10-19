@@ -1,0 +1,107 @@
+.containerSectionInitial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(https://i.postimg.cc/XNKdShY9/manuten-o.png) no-repeat;
+    background-size: cover;
+}
+
+.conteudoSandwich{
+    display: flex;
+    width: 100%;
+    height: 30%;
+}
+
+.conteudoInitial{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.titleInitial{
+    font-family: 'Poppins';
+    font-weight: 250;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.conteudoInitial h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: #8B8B8B;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+
+.conteudoInitial span{
+    color: #EEEEEE;
+    
+}
+
+.conteudoInitial p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #BABABA;
+    cursor: pointer;
+}
+
+.conteudoInitial img{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+
+@media(max-width: 700px){
+    .titleInitial{
+        font-size: 35px;
+    }
+
+    .containerSectionInitial{
+        height: calc(100vh - 80px);
+    }
+
+    .containerSectionInitial h2{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .containerSectionInitial p{
+        font-size: 10px;
+    }
+
+    .conteudoInitial a{
+        font-size: 15px;
+    }
+
+    .menuSandwichOpen{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(20% + 80px);
+        justify-content: flex-end;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.69);
+        transition: ease all 0.3s;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .menuSandwichOpen a{
+        font-size: 14px;
+        color: #DDDDDD;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .menuSandwichOpen a:hover{
+        color: #E40329;
+        transition: all ease 0.3s;
+    }
+}

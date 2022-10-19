@@ -1,0 +1,106 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.69);
+    z-index: 3;
+}
+
+
+.containerLogoHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.containerLogoHeader img{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+nav a{
+    font-size: 14px;
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #a6a6a6;
+    transition: all ease 0.3s;
+}
+
+.containerSocialHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+}
+
+.iconHeader {
+    margin-left: 25px;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+.containerSocialHeader p{
+    font-weight: 700;
+    font-size: 14px;
+    color: #E40329;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.containerBtnHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    height: 100%;
+    display: none;
+}
+
+.iconMenuHeader{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+/* RESPONSIVE */
+
+
+@media(max-width: 575px){
+    .containerLogoHeader{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .containerSocialHeader{
+        display: none;
+    }
+
+    .containerBtnHeader{
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .iconMenuHeader{
+        font-size: 25px;
+        cursor: pointer;
+    }
+}

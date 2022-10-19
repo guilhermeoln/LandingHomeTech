@@ -1,0 +1,178 @@
+.containerSectionContact{
+    display: flex;
+    width: 100%;
+    height: 712px;
+    background-color: #F8F8F8;
+    background-image: url(https://i.postimg.cc/NFq5k8cc/map-Background.png);
+    background-size: cover;
+}
+
+.containerTextContact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+
+.contentTitleContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 60%;
+}
+
+.contentTitleContact img{
+    width: 117.13px;
+    height: 117.13px;
+    margin-left: 50px;
+}
+
+.contentTitleContact p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin: 20px 0px 0px 70px;
+    max-width: 70%;
+}
+
+.contentTitleContact h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 34.075px;
+    color: #000000;
+    max-width: 50%;
+    margin: 5px 0px 0px 70px;
+}
+
+.containerImgContact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.containerImgContact img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+
+.btnEnviarMensagem{
+    margin-left: 70px;
+    width: 62%;
+    background: #023C76;
+    border-radius: 4.96927px;
+    padding: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnEnviarMensagem:hover{
+    background-color: #FFFFFF;
+    color: #023C76;
+    border: 1px solid #023C76;
+    transition: ease all 0.6s;
+}
+
+.contentTextContact{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 20%;
+    padding-left: 70px;
+}
+
+.cardContact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+    height: 69px;
+    margin-right: 50px;
+    background: #E4EAFF;
+    border-radius: 7.80885px;
+}
+
+.cardContact p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #595959;
+}
+
+.cardContact img{
+    position: relative;
+    right: 20px;
+    width: 36px;
+    height: 35px;
+}
+
+.phoneContact{
+    margin-right: 60px;
+}
+
+
+
+
+
+
+/* REPONSIVE */
+
+
+@media(max-width: 900px){
+    .containerSectionContact{
+        flex-direction: column;
+        height: 750px;
+    }
+
+    .containerTextContact{
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerImgContact img{
+        display: none;
+    }
+
+    .contentTitleContact{
+        height: 80%;
+    }
+
+    .contentTitleContact img{
+        margin-left: 25px;
+    }
+
+    .contentTitleContact h2{
+        margin-left: 50px;
+    }
+
+    .contentTitleContact p{
+        margin-left: 50px;
+    }
+
+    .contentTextContact{
+        flex-direction: column;
+        width: 100%;
+        height: 25%;
+        padding-left: 0px;
+    }
+
+    .cardContact{
+        margin: 20px 0px 0px 70px;
+        width: 50%;
+    }
+
+    .btnEnviarMensagem{
+        width: 60%;
+        margin:30px 0px 0px 70px;
+    }
+}

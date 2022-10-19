@@ -1,0 +1,157 @@
+.containerSectionServices{
+    display: flex;
+    width: 100%;
+    height: 696px;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(https://i.postimg.cc/nrB5s2FM/assistencia-tecnica-de-iphone-telefone.png) no-repeat;
+    background-size: cover;
+}
+
+.containerServicesCard{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.containerTextCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    height: 100%;
+    padding-left: 100px;
+}
+
+.containerTextCard h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: -1.59547px;
+    max-width: 50%;
+}
+
+.containerTextCard p{
+    max-width: 85%;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.558415px;
+    color: rgba(255, 255, 255, 0.702469);
+    margin-top: 25px;
+}
+
+.containerTextCard a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 40px;
+    background: #E40329;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    width: 177px;
+    height: 48px;
+    box-shadow: 0px 7.03294px 14.0659px rgba(0, 0, 0, 0.24);
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.containerTextCard a:hover{
+    background-color: transparent;
+    border: 1px solid #E40329;
+    color: #E40329;
+    transition: all ease 0.4s;
+}
+
+.rowServicesCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+}
+
+
+.cardServices{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+}
+
+.titleCardServices{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+}
+
+.titleCardServices img{
+    width: 58px;
+    height: 58px;
+}
+
+.textCardServices{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+}
+
+.textCardServices h3{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.638189px;
+    color: #FFFFFF;
+}
+
+.textCardServices p{
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.textCardServices a{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.logoBtn{
+    margin-left: 10px;
+}
+
+
+/* RESPONSIVE */
+
+
+
+@media(max-width: 900px){
+    .containerSectionServices{
+        height: 1500px;
+        margin-top: 250px;
+    }
+
+    .containerTextCard{
+        display: none;
+    }
+
+    .containerServicesCard{
+        width: 100%;
+    }
+    
+    .rowServicesCard{
+        flex-direction: column;
+    }
+
+    .cardServices{
+        width: 80%;
+    }
+}
